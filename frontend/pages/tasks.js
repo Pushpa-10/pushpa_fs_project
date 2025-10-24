@@ -1,5 +1,8 @@
-
-
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+export default function TasksPage() {
+  return (
+    <div>
+      <h1>Tasks</h1>
+      {/* Your page content here */}
+    </div>
+  );
 }
